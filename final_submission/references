@@ -1,0 +1,78 @@
+{
+  "referenceGuide":"Cite all the reference sources in the required format. Proper citations will help you avoid unnecessary trouble but does not make it acceptable to copy code. Read the course and university policy statements in this regard. When working with others, limit the discussion to block diagrams and arrows. Do not look at another students' code. Read the JSON semantics and make use of JSON validator from the Internet if needed.",
+  "websites":[
+    {
+      "title":"Introduction to Pandas",
+      "url":"https://nbviewer.org/url/clouddatascience.blob.core.windows.net/primers/pandas-primer/pandas_primer.ipynb",
+      "code":"All questions",
+      "description":"The primer was referred to understand if any vectorization methods that will be useful for this project. It was also use to understand the groupby method used."
+    }
+    {
+      "title":"Introduction to Numpy",
+      "url":"https://nbviewer.org/url/clouddatascience.blob.core.windows.net/primers/numpy-primer/numpy_primer.ipynb",
+      "code":"All questions",
+      "description":"The primer was referred to understand if any vectorization methods that will be useful for this project."
+    }
+    {
+      "title":"pandas.DataFrame.explode",
+      "url":"https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.explode.html",
+      "code":"Question 2 variable df_squad_exploded, ",
+      "description":"The documentation was referred to understand how this method functions and how to apply it."
+    }
+    {
+      "title":"Sentence Transformers: Multilingual Sentence, Paragraph, and Image Embeddings using BERT & Co",
+      "url":"https://github.com/UKPLab/sentence-transformers#getting-started",
+      "code":"Question 3",
+      "description":"This was referred to understand how sentence transformer works and to aid in implementing the sent2vec prediction"
+    }
+    {
+      "title":"Abstract Syntax Tree Primer",
+      "url":"https://nbviewer.org/url/clouddatascience.blob.core.windows.net/primers/ast-primer/ast_primer.ipynb",
+      "code":"Question 3 function process_sentences",
+      "description":"This was referred to understand about - Extracting Linguistic Features From Text, like noun chunks, root and head."
+    }
+    {
+      "title":"numpy.vstack",
+      "url":"https://numpy.org/doc/stable/reference/generated/numpy.vstack.html",
+      "code":"Question 6 function get_lr_prediction variables X_train and X_test",
+      "description":"This was used to refer and understand how to vertically stack the concatenated embeddings of the question and context sentence pairs into a 2D NumPy array."
+    }
+    {
+      "title":"Introduction to Hugging Face",
+      "url":"https://nbviewer.org/url/clouddatascience.blob.core.windows.net/primers/huggingface-primer/huggingface_primer.ipynb",
+      "code":"Question 7, Question 8",
+      "description":"This was referred to understand how to use tokenizer. This was also used to understand the implementation for PyTorch training."
+    }
+    {
+      "title":"Tokenizer",
+      "url":"https://huggingface.co/docs/transformers/main_classes/tokenizer",
+      "code":"Question 7",
+      "description":"This was referred to understand how to use tokenizer"
+    }
+    {
+      "title":"Recurrent Neural Networks",
+      "url":"https://nbviewer.org/url/clouddatascience.blob.core.windows.net/primers/rnn-primer/rnn_primer.ipynb",
+      "code":"Question 8",
+      "description":"The primer has a section on Pretrained BERT. This was helpful in understanding how BERT works"
+    }
+    {
+      "title":"BERT",
+      "url":"https://huggingface.co/transformers/v4.7.0/model_doc/bert.html#transformers.BertForQuestionAnswering.forward",
+      "code":"Question 8 function fine_tune_bert variable output",
+      "description":"This link was referred to understand the parameters to specify in the forward pass"
+    }
+    {
+      "title":"Model Deployment on Azure",
+      "url":"https://nbviewer.org/url/clouddatascience.blob.core.windows.net/primers/p5-machine-learning-azure-primer/azure_model_deployment_primer.ipynb",
+      "code":"Question 9",
+      "description":"This was referred to implement the model deployment implementation"
+    }
+  ],
+  "collaborators":[
+    {
+      "andrewId":"<collaborator andrewId>",
+      "collaborationType":"<I helped X, X helped me, or we helped each other>",
+      "description":"<describe the idea discussed or shared>"
+    }
+  ]
+}
